@@ -37,4 +37,4 @@ COPY --from=build /app/target/yun-music-0.0.1.jar .
 EXPOSE 80
 
 # 执行启动命令
-CMD ["java", "-jar", "/app/wangyi-music-0.0.1.jar", "--spring.profiles.active=test"]
+CMD ["java", "-jar", "/app/yun-music-0.0.1.jar", "--spring.profiles.active=test"]
